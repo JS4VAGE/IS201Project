@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #981E32;
+}
+@font-face {
+    font-family: wsufont;
+    src: url(wsufont.otf);
+}
+div {font-family: wsufont;}
+
+a {
+    color:white;
+    font-size: 24px;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration:underline;
+    color: #5E6A71;
+}
+a:visited {color: none;}
+
+li {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mainheading {
+    color: white;
+    font-size: 128px;
+    font-family: wsufont;
+    z-index: 2;
+    float: right;
+}
+.homesubheading {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 42px;
+    font-family: wsufont;
+    
+}
+.homebg {
+    /* background-color:#5E6A71; */
+    font-family: wsufont;
+    position: absolute;
+}
+.header {
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    height: 30px;
+    text-align: right;
+    z-index: 3;
+    border: #981E32 solid 2px;
+    border-bottom: white solid 5px;
+    padding-right: 2px;
+
+}
+.bodytop {
+    top: 36px;
+    left: 2px;
+    right: 2px;
+    height: 300px;
+    text-align: right;
+    z-index: 1;
+    border-left: #981E32 solid 2px;
+    border-right: #981E32 solid 2px;
+    border-bottom: #981E32 solid 2px;
+}
+.header2 {
+    top: 340px;
+    left: 2px;
+    right: 2px;
+    height: 30px;
+    text-align: right;
+    z-index: 3;
+    border-bottom: white solid 5px;
+}
+.bodymain {
+    top: 374px;
+    left: 2px;
+    right: 2px;
+    bottom: 36px;
+    border-left: #981E32 solid 2px;
+    border-right: #981E32 solid 2px;
+    
+}
+.footer {
+    bottom: 2px;
+    left: 2px;
+    right: 2px;
+    height: 30px;
+    text-align: left;
+    position: fixed;
+    border: white solid 5px;
+    padding-left: 2px;
+    background-color: white;
+
+}
+.footera {
+    color:#981E32;
+    font-size: 24px;
+    text-decoration: none;
+}
+.footera:hover {
+    text-decoration:underline;
+    color: #5E6A71;
+}
+.footera:visited {color: none;}
+
+.wsu1 {
+    float: left;
+    position: relative;
+    
+}
+.leachpic {
+    z-index: 5;
+    
+}
+
+/* #981E32 */
+/* #5E6A71 */
